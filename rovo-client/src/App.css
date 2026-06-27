@@ -1,0 +1,135 @@
+/* Global Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #2C2C2C;
+  background-color: #FFFFFF;
+  line-height: 1.6;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #2C2C2C;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p {
+  color: #666666;
+}
+
+/* Links */
+a {
+  color: #C86400;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #B55B00;
+}
+
+/* Buttons */
+button {
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C86400;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B55B00;
+}
+
+/* Selection */
+::selection {
+  background-color: #C86400;
+  color: #FFFFFF;
+}
+
+::-moz-selection {
+  background-color: #C86400;
+  color: #FFFFFF;
+}
+
+/* Image optimizations */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Form Elements */
+input,
+textarea,
+select {
+  font-family: 'Inter', sans-serif;
+  border: 1px solid #CCCCCC;
+  border-radius: 8px;
+  padding: 10px 12px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #C86400;
+  box-shadow: 0 0 0 3px rgba(200, 100, 0, 0.1);
+}
+
+/* Utility Classes */
+.text-primary {
+  color: #C86400;
+}
+
+.text-charcoal {
+  color: #2C2C2C;
+}
+
+.text-gray {
+  color: #666666;
+}
+
+.bg-primary {
+  background-color: #C86400;
+}
+
+.bg-warmIvory {
+  background-color: #FDF8F2;
+}
+
+.bg-charcoal {
+  background-color: #2C2C2C;
+}
+
+.font-display {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-body {
+  font-family: 'Inter', sans-serif;
+}
